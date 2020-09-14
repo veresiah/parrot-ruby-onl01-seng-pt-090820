@@ -6,5 +6,7 @@ def parrot(sound=Squawk)
 end 
 def parrot
   puts "Squawk!"
-  "Squawk"
+  return"Squawk"
 end 
+def parrot(sound=Squawk)
+  
