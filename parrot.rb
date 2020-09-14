@@ -5,6 +5,6 @@ def parrot
   end 
 def parrot (sound="Squawk!")
   puts "#{sound}"
-  "Squawk!"
+  return sound
 end 
-parrot()
+parrot(Pretty bird!) 
